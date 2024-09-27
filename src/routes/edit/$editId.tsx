@@ -74,7 +74,7 @@ function EditComponent() {
                required
 
                />
-               <button type='submit' className='w-full md:w-2/3 p-2  bg-primary text-white  rounded-md ' >Submit</button>
+               <button type='submit' className='w-full md:w-2/3 p-2  bg-primary text-white  rounded-md ' >Update</button>
 
       </form>
       </div>

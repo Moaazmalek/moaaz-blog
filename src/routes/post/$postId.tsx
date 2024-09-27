@@ -30,7 +30,7 @@ function SinglePage() {
       <div className=' flex gap-5'>
       <button className=" bg-red-500 p-2 text-white font-bold rounded-sm hover:bg-red-800 "onClick={() => handleDelete()}>Delete</button>
       <button className=" bg-primary p-2 text-white font-bold rounded-sm hover:bg-sky-700"onClick={() => {navigate({to:'/'})}}>Cancle</button>
-      <button className=" bg-green-500 p-2 text-white font-bold rounded-sm hover:bg-sky-700"onClick={() => {navigate({to:`/edit/${post.id}`})}}>Update</button>
+      <button className=" bg-green-500 p-2 text-white font-bold rounded-sm hover:bg-sky-700"onClick={() => {navigate({to:`/edit/${post.id}`})}}>Edit</button>
       </div>
       </section>}
 
