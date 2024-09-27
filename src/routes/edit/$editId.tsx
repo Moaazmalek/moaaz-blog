@@ -32,6 +32,7 @@ function EditComponent() {
        const newPost={id:editId,datetime:datetime,body:editPost.body,title:editPost.title}
        console.log(newPost)
         updatePost.mutate(newPost)
+
        navigate({to:'/'})
 
     }
